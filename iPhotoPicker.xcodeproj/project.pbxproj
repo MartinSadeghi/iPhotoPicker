@@ -17,6 +17,7 @@
 		6B5316212A67E59800040AC4 /* iPhotoPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5316202A67E59800040AC4 /* iPhotoPickerTests.swift */; };
 		6B53162B2A67E59800040AC4 /* iPhotoPickerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B53162A2A67E59800040AC4 /* iPhotoPickerUITests.swift */; };
 		6B53162D2A67E59800040AC4 /* iPhotoPickerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B53162C2A67E59800040AC4 /* iPhotoPickerUITestsLaunchTests.swift */; };
+		6B53163A2A67EC8D00040AC4 /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5316392A67EC8D00040AC4 /* PhotosCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		6B5316262A67E59800040AC4 /* iPhotoPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPhotoPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B53162A2A67E59800040AC4 /* iPhotoPickerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhotoPickerUITests.swift; sourceTree = "<group>"; };
 		6B53162C2A67E59800040AC4 /* iPhotoPickerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPhotoPickerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6B5316392A67EC8D00040AC4 /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +105,9 @@
 			children = (
 				6B5316062A67E59700040AC4 /* AppDelegate.swift */,
 				6B5316082A67E59700040AC4 /* SceneDelegate.swift */,
-				6B53160A2A67E59700040AC4 /* ViewController.swift */,
 				6B53160C2A67E59700040AC4 /* Main.storyboard */,
+				6B53160A2A67E59700040AC4 /* ViewController.swift */,
+				6B5316392A67EC8D00040AC4 /* PhotosCollectionViewCell.swift */,
 				6B5316122A67E59800040AC4 /* Assets.xcassets */,
 				6B5316142A67E59800040AC4 /* LaunchScreen.storyboard */,
 				6B5316172A67E59800040AC4 /* Info.plist */,
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B53160B2A67E59700040AC4 /* ViewController.swift in Sources */,
+				6B53163A2A67EC8D00040AC4 /* PhotosCollectionViewCell.swift in Sources */,
 				6B5316072A67E59700040AC4 /* AppDelegate.swift in Sources */,
 				6B5316112A67E59700040AC4 /* iPhotoPicker.xcdatamodeld in Sources */,
 				6B5316092A67E59700040AC4 /* SceneDelegate.swift in Sources */,
