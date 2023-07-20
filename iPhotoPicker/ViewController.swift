@@ -19,7 +19,6 @@ class ViewController: UIViewController {
     
         // MARK:  - Outlets
     @IBOutlet weak var addPhotoButtonTapped: UIBarButtonItem!
-   
     @IBOutlet weak var photosCollectionView: UICollectionView!
     
     
@@ -32,15 +31,15 @@ class ViewController: UIViewController {
     @IBAction func addPhotoButtonTapped(_ sender: UIBarButtonItem) {
         
         var config = PHPickerConfiguration()
-        config.selectionLimit = 3
+        config.selectionLimit = 0
         let photoPickerViewController = PHPickerViewController(configuration: config)
         photoPickerViewController.delegate = self
         self.present(photoPickerViewController, animated: true)
     }
-    
-
 
 }
+
+    // MARK:  - Extension of PHPickerViewControllerDelegate
 
 extension ViewController: PHPickerViewControllerDelegate {
     
@@ -60,6 +59,8 @@ extension ViewController: PHPickerViewControllerDelegate {
 }
 
 
+
+// MARK:  - Extension of UICollectionViewDataSource
 
 extension ViewController: UICollectionViewDataSource {
     
